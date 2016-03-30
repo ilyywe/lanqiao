@@ -1,2 +1,1 @@
-# LanqiaoOJ
-lanqiao.org
+[蓝桥练习OJ](http://lx.lanqiao.org)
