@@ -1,4 +1,4 @@
-//  算法训练 最大最小公倍数  
+算法训练 最大最小公倍数
 问题描述
 已知一个正整数N，问从1~N中任选出三个数，他们的最小公倍数最大可以为多少。
 
@@ -14,24 +14,26 @@
 数据规模与约定
 1 <= N <= 10^6。
 
-#include <iostream>
-using namespace std;
+分析:
+1.如果 n <= 2, 那么最小公倍数为 n
+2.如果 n 是奇数，那么最小公倍数的最大值为末尾的三个数相乘
+3.如果是偶数的话，如果同时出现两个偶数肯定会不能构成最大值了，因为会被除以2~~分两种情况：
+(1)如果 n 是偶数且不是三的倍数， 比如8，那么跳过n-2这个数而选择 8 7 5 能保证不会最小公倍数被除以2~~所以最小公倍数的最大值为n * (n - 1) * (n - 3)
+(2)如果 n 是偶数且为三的倍数，比如6，如果还像上面那样选择的话，6和3相差3会被约去一个3，又不能构成最大值了。那么最小公倍数的最大值为(n - 1) * (n - 2) * (n - 3)
 
-int main() {
-    long long int n;
-    cin >> n;
-    long long int result = 0;
-    if (n <= 2)
-        result = n;
-    else if (n % 2) {
-        result = (n - 2) * (n - 1) * n;
-    } else {
-        if(n % 3 == 0) {
-            result = (n - 3) * (n - 2) * (n - 1);
-        } else {
-            result = (n - 3) * (n - 1) * n;
-        }
-    }
-    cout << result;
-    return 0;
-}
+#include <iostream>  
+using namespace std;  
+int main() {  
+    long long n, ans;  
+    cin >> n;  
+    if(n <= 2)  
+        ans = n;  
+    else if(n % 2 == 1)  
+        ans = n * (n-1) * (n-2);  
+    else if(n % 3 == 0)  
+        ans = (n - 1) * (n - 2) * (n - 3);  
+    else  
+        ans = n * (n - 1) * (n - 3);    
+    cout << ans;  
+    return 0;  
+}  
