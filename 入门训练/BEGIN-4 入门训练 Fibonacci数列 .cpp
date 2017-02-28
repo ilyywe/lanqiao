@@ -1,6 +1,4 @@
 BEGIN-4 入门训练 Fibonacci数列  
-时间限制：1.0s   内存限制：256.0MB
-提交此题   锦囊1   锦囊2
 问题描述
 Fibonacci数列的递推公式为：Fn=Fn-1+Fn-2，其中F1=F2=1。
 
