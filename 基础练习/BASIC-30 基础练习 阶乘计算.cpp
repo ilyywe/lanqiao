@@ -44,4 +44,4 @@ int main() {
         cout << A[i];
     }
     return 0;
-    
+}
