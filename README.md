@@ -2,7 +2,7 @@
 
 |   编号    |                    名称                    |                  C/C++                   | Java |
 | :-----: | :--------------------------------------: | :--------------------------------------: | :--: |
-| BEGIN-1 | [A+B问题]([查看题解](http://lx.lanqiao.cn/problem.page?gpid=T1) | [查看题解](http://www.liuchuo.net/archives/3410) |      |
+| BEGIN-1 | [A+B问题](http://lx.lanqiao.cn/problem.page?gpid=T1) | [查看题解](http://www.liuchuo.net/archives/3410) |      |
 | BEGIN-2 | [序列求和](http://lx.lanqiao.cn/problem.page?gpid=T2) | [查看题解](http://www.liuchuo.net/archives/3412) |      |
 | BEGIN-3 | [圆的面积](http://lx.lanqiao.cn/problem.page?gpid=T3) | [查看题解](http://www.liuchuo.net/archives/3417) |      |
 | BEGIN-4 | [Fibonacci数列](http://lx.lanqiao.cn/problem.page?gpid=T4) | [查看题解](http://www.liuchuo.net/archives/3419) |      |
