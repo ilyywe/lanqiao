@@ -1,4 +1,4 @@
-// 算法提高 日期计算 
+ADV-127 算法提高 日期计算 
 问题描述
 　　已知2011年11月11日是星期五，问YYYY年MM月DD日是星期几？注意考虑闰年的情况。尤其是逢百年不闰，逢400年闰的情况。
 输入格式
@@ -38,8 +38,7 @@ int main() {
             case 5: cout << 4; break;
             case 6: cout << 5; break;
         }
-    }
-    else {
+    } else {
         switch(distance1) {
             case 0: cout << 6; break;
             case 1: cout << 5; break;
@@ -67,8 +66,7 @@ int days(int year, int month, int day) {
             sum = day;
         else
             sum = 31 + day;
-    }
-    else {
+    } else {
         switch(month) {
             case 3: sum = 59 + day; break;
             case 4: sum = 90 + day; break;
@@ -98,8 +96,7 @@ int distance(int year, int month, int day) {
                 count++;
         }
         distance1 = distance1 + count;
-    }
-    else {
+    } else {
         distance1 = 365 * (2011 - year) + 365 - days(year, month, day);
         if (isleapyear(year) == 1)
             distance1 = distance1 + 1;
