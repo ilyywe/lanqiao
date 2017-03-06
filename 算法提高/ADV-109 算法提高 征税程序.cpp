@@ -1,4 +1,4 @@
-算法提高 征税程序
+ADV-109 算法提高 征税程序
 问题描述
 　　税务局希望你帮他们编写一个征税程序，该程序的功能是：首先输入某公司的年销售额sale和税率rate，然后程序将计算出相应的税额tax，并把它显示在屏幕上。计算公式是：
 　　tax = sale * rate。
@@ -14,9 +14,9 @@
 #include <cstdio>
 using namespace std;
 int main() {
-	double sale, rate;
-	cin >> sale >> rate;
-	double tax = sale * rate;
-	printf("%.2f", tax);
-	return 0;
+    double sale, rate;
+    cin >> sale >> rate;
+    double tax = sale * rate;
+    printf("%.2f", tax);
+    return 0;
 }
