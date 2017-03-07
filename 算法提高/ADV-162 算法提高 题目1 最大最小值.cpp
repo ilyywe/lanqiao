@@ -1,6 +1,4 @@
-//算法提高 题目1 最大最小值  
-时间限制：1.0s   内存限制：1.0GB
-提交此题    
+ADV-162 算法提高 题目1 最大最小值    
 问题描述
 　　给定 N 个整数，请你找出这 N 个数中最大的那个和最小的那个。
 输入格式
@@ -18,18 +16,16 @@
 #include <algorithm>
 using namespace std;
 
-int cmp(int a, int b) {
-    return a < b;
-}
+int cmp(int a, int b) { return a < b; }
 
 int main() {
     int n;
     cin >> n;
     int *a = new int [n];
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         cin >> a[i];
-    }
     sort(a, a+n, cmp);
     cout << a[n - 1] << " " << a[0];
+    delete [] a;
     return 0;
 }
