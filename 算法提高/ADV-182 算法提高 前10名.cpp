@@ -1,4 +1,4 @@
-算法提高 前10名
+ADV-182 算法提高 前10名
 问题描述
 　　数据很多，但我们经常只取前几名，比如奥运只取前3名。现在我们有n个数据，请按从大到小的顺序，输出前10个名数据。
 输入格式
@@ -20,15 +20,15 @@
 using namespace std;
 int cmp1(int a, int b) {return a > b;}
 int main() {
-	int n;
-	cin >> n;
-	int *a = new int[n];
-	for(int i = 0; i < n; i++) {
-		cin >> a[i];
-	}
-	sort(a, a+n, cmp1);
-	for(int i = 0; i < 10; i++) {
-		cout << a[i] << " ";
-	}
-	return 0;
+    int n;
+    cin >> n;
+    int *a = new int[n];
+    for(int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+    sort(a, a+n, cmp1);
+    for(int i = 0; i < 10; i++)
+        cout << a[i] << " ";
+    delete [] a;
+    return 0;
 }
