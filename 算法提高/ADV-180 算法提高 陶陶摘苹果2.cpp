@@ -1,4 +1,4 @@
-算法提高 陶陶摘苹果2  
+ADV-180 算法提高 陶陶摘苹果2  
 问题描述
 　　陶陶家的院子里有一棵苹果树，每到秋天树上就会结出n个苹果。苹果成熟的时候，陶陶就会跑去摘苹果。陶陶有个30厘米高的板凳，当她不能直接用手摘到苹果的时候，就会踩到板凳上再试试。
 　　现在已知n个苹果到地面的高度，以及陶陶把手伸直的时候能够达到的最大高度。假设她碰到苹果，苹果就会掉下来。请帮陶陶算一下,经过她的洗劫后，苹果树上还有几个苹果。
@@ -15,15 +15,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int n, m;
-	cin >> n >> m;
-	int cnt = n;
-	for(int i = 0; i < n; i++) {
-		int temp;
-		cin >> temp;
-		if(m + 30 >= temp)
-			cnt--;
-	}
-	cout << cnt;
-	return 0;
+    int n, m;
+    cin >> n >> m;
+    int cnt = n;
+    for(int i = 0; i < n; i++) {
+        int temp;
+        cin >> temp;
+        if(m + 30 >= temp)
+            cnt--;
+    }
+    cout << cnt;
+    return 0;
 }
