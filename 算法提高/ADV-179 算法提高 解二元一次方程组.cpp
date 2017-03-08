@@ -1,4 +1,4 @@
-算法提高 解二元一次方程组
+ADV-179 算法提高 解二元一次方程组
 问题描述
 　　给定一个二元一次方程组，形如：
 　　a * x + b * y = c;
@@ -21,11 +21,11 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a, b, c, d, e, f;
-	cin >>a >>b >> c >> d >> e >> f;
-	long long int x, y;
-	y = (c * d - f * a) / (b * d - e * a);
-	x = (c - b * y) / a;
-	cout << x << " " << y;
-	return 0;
+    int a, b, c, d, e, f;
+    cin >>a >>b >> c >> d >> e >> f;
+    long long int x, y;
+    y = (c * d - f * a) / (b * d - e * a);
+    x = (c - b * y) / a;
+    cout << x << " " << y;
+    return 0;
 }
