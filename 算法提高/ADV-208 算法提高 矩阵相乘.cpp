@@ -1,4 +1,4 @@
-算法提高 矩阵相乘
+ADV-208 算法提高 矩阵相乘
 问题描述
 　　小明最近在为线性代数而头疼，线性代数确实很抽象（也很无聊），可惜他的老师正在讲这矩阵乘法这一段内容。
 　　当然，小明上课打瞌睡也没问题，但线性代数的习题可是很可怕的。
@@ -31,32 +31,27 @@
 #include <vector>
 using namespace std;
 int main() {
-	int a, b;
-	cin >> a >> b;
-	vector<vector<long long int> > A(a, vector<long long int>(b));
-	for(int i = 0; i < a; i++) {
-		for(int j = 0; j < b; j++) {
-			cin >> A[i][j];
-		}
-	}
-	int c, d;
-	cin >> c >> d;
-	vector<vector<long long int> > B(c, vector<long long int>(d));
-	for(int i = 0; i < c; i++) {
-		for(int j = 0; j < d; j++) {
-			cin >> B[i][j];
-		}
-	}
-	vector<vector<long long int> > C(a, vector<long long int>(d));
-	for(int i = 0; i < a; i++) {
-		for(int j = 0; j < d; j++) {
-			C[i][j] = 0;
-			for(int k = 0; k < b; k++) {
-				C[i][j] += A[i][k] + B[k][j];
-			}
-			cout << C[i][j] << " ";
-		}
-		cout << endl;
-	}
-	return 0;
+    int a, b;
+    cin >> a >> b;
+    vector<vector<long long int> > A(a, vector<long long int>(b));
+    for(int i = 0; i < a; i++)
+        for(int j = 0; j < b; j++)
+            cin >> A[i][j];
+    int c, d;
+    cin >> c >> d;
+    vector<vector<long long int> > B(c, vector<long long int>(d));
+    for(int i = 0; i < c; i++)
+        for(int j = 0; j < d; j++)
+            cin >> B[i][j];
+    vector<vector<long long int> > C(a, vector<long long int>(d));
+    for(int i = 0; i < a; i++) {
+        for(int j = 0; j < d; j++) {
+            C[i][j] = 0;
+            for(int k = 0; k < b; k++)
+                C[i][j] += A[i][k] + B[k][j];
+            cout << C[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
 }
