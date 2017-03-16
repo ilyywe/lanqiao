@@ -1,4 +1,4 @@
-算法提高 3-1课后习题2  
+ADV-212 算法提高 3-1课后习题2
 问题描述
 　　编写一个程序，接受用户输入的10个整数，输出它们的和。
 输出格式
@@ -15,12 +15,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int sum = 0;
-	for(int i = 0; i < 10; i++) {
-		int t;
-		cin >> t;
-		sum += t;
-	}
-	cout << sum;
-	return 0;
+    int sum = 0;
+    for(int i = 0; i < 10; i++) {
+        int t;
+        cin >> t;
+        sum += t;
+    }
+    cout << sum;
+    return 0;
 }
