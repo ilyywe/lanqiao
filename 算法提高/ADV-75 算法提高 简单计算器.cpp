@@ -1,4 +1,4 @@
-算法提高 简单计算器
+ADV-75 算法提高 简单计算器
 问题描述
 　　编程模拟计算器的加、减、乘、除功能，根据用户输入的运算符，对两个数进行运算。(要求switch语句)
 输入格式
@@ -13,22 +13,22 @@
 #include <iostream>
 using namespace std;
 int main() {
-	char c;
-	int a, b;
-	cin >> c >> a >> b;
-	switch(c) {
-		case '+':
-			cout << a + b;
-			break;
-		case '-':
-			cout << a - b;
-			break;
-		case '*':
-			cout << a * b;
-			break;
-		case '/':
-			cout << a / b;
-			break;
-	}
-	return 0;
+    char c;
+    int a, b;
+    cin >> c >> a >> b;
+    switch(c) {
+        case '+':
+            cout << a + b;
+            break;
+        case '-':
+            cout << a - b;
+            break;
+        case '*':
+            cout << a * b;
+            break;
+        case '/':
+            cout << a / b;
+            break;
+    }
+    return 0;
 }
