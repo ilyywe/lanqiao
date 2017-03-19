@@ -1,4 +1,4 @@
-算法提高 算术运算
+ADV-85 算法提高 算术运算
 编写一程序，接受用户输入的两个整数，并计算它们的和、差、
 积、商，程序运行时候输入输出例子如下所示。
 样例输入：
@@ -13,11 +13,11 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a, b;
-	cin >> a >> b;
-	cout << a << "+" << b << "=" << a+b << endl;
-	cout << a << "-" << b << "=" << a-b << endl;
-	cout << a << "*" << b << "=" << a*b << endl;
-	cout << a << "/" << b << "=" << a/b << endl;
-	return 0;
+    int a, b;
+    cin >> a >> b;
+    cout << a << "+" << b << "=" << a+b << endl;
+    cout << a << "-" << b << "=" << a-b << endl;
+    cout << a << "*" << b << "=" << a*b << endl;
+    cout << a << "/" << b << "=" << a/b << endl;
+    return 0;
 }
