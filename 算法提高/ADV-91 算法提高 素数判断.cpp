@@ -1,4 +1,4 @@
-算法提高 素数判断
+ADV-91 算法提高 素数判断
 编写一函数IsPrime，判断某个大于2的正整数是否为素数。
 样例输入: 
 5
@@ -13,14 +13,14 @@ no
 #include <iostream>
 using namespace std;
 int main() {
-	int n;
-	cin >> n;
-	for(int i = 2; i * i <= n; i++) {
-		if(n % i == 0) {
-			cout << "no";
-			return 0;
-		}
-	}
-	cout << "yes";
-	return 0;
+    int n;
+    cin >> n;
+    for(int i = 2; i * i <= n; i++) {
+        if(n % i == 0) {
+            cout << "no";
+            return 0;
+        }
+    }
+    cout << "yes";
+    return 0;
 }
