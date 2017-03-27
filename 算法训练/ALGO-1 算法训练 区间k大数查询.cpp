@@ -1,4 +1,4 @@
-//算法训练 区间k大数查询  
+ALGO-1 算法训练 区间k大数查询  
 问题描述
 给定一个序列，每次询问序列中第l个数到第r个数中第K大的数是哪个。
 输入格式
@@ -24,32 +24,28 @@
 
 #include <iostream>
 #include <algorithm>
+#include <vector>
 using namespace std;
-
 int cmp(int a, int b){return a > b;}
-
 int main() {
-    int n;
+    int n, m;
     cin >> n;
-    int *a = new int [n];
+    vector<int> a(n);
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-    int m;
     cin >> m;
-    int *result = new int [m];
+    vector<int> result(m);
     for (int i = 0; i < m; i++) {
-        int l,r,k;
-        cin >> l;
-        cin >> r;
-        cin >> k;
-        int *b = new int [n];
+        int l, r, k;
+        cin >> l >> r >> k;
+        int *temp = new int [n];
         for(int j = 0; j < n; j++) {
-            b[j] = a[j];
+            temp[j] = a[j];
         }
-        sort(b + l - 1, b + r, cmp);
-        result[i] = b[l - 1 + k - 1];
-        delete [] b;
+        sort(temp + l - 1, temp + r, cmp);
+        result[i] = temp[l - 1 + k - 1];
+        delete [] temp;
     }
     for (int i = 0; i < m; i++) {
         cout << result[i] << endl;
