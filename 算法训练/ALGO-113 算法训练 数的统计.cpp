@@ -1,4 +1,4 @@
-算法训练 数的统计
+ALGO-113 算法训练 数的统计
 问题描述
 　　在一个有限的正整数序列中，有些数会多次重复出现在这个序列中。
 　　如序列：3，1，2，1，5，1，2。其中1就出现3次，2出现2次，3出现1 次，5出现1次。
@@ -24,17 +24,17 @@
 int a[1000001];
 using namespace std;
 int main() {
-	int n;
-	cin >> n;
-	for(int i = 0; i < n; i++) {
-		int temp;
-		cin >> temp;
-		a[temp]++;
-	}
-	for(int i = 0; i <= 1000000; i++) {
-		if(a[i] != 0) {
-			cout << i << " " << a[i] << endl;
-		}
-	}
-	return 0;
+    int n;
+    cin >> n;
+    for(int i = 0; i < n; i++) {
+        int temp;
+        cin >> temp;
+        a[temp]++;
+    }
+    for(int i = 0; i <= 1000000; i++) {
+        if(a[i] != 0) {
+            cout << i << " " << a[i] << endl;
+        }
+    }
+    return 0;
 }
