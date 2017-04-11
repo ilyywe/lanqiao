@@ -1,4 +1,4 @@
-算法训练 A+B problem
+ALGO-123 算法训练 A+B problem
 问题描述
 　　Given two integers A and B, your task is to output their sum, A+B.
 输入格式
@@ -13,8 +13,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a, b;
-	cin >> a >> b;
-	cout << a + b;
-	return 0;
+    int a, b;
+    cin >> a >> b;
+    cout << a + b;
+    return 0;
 }
