@@ -1,4 +1,4 @@
-//算法训练 寻找数组中最大值 
+ALGO-49 算法训练 寻找数组中最大值 
 问题描述
 　　对于给定整数数组a[],寻找其中最大值，并返回下标。
 输入格式
@@ -21,8 +21,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    int max = arr[0];
-    int t = 0;
+    int max = arr[0], t = 0;
     for (int i = 1; i < n; i++) {
         if (max < arr[i]) {
             max = arr[i];
