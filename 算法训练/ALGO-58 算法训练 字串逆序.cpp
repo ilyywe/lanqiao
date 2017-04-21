@@ -1,4 +1,4 @@
- 算法训练 字串逆序  
+ALGO-58 算法训练 字串逆序  
  问题描述
 　　给定一个字符串，将这个串的所有字母逆序后输出。
 输入格式
@@ -14,10 +14,10 @@ nesnist
 #include <iostream>
 using namespace std;
 int main() {
-	string s;
-	cin >> s;
-	for(int i = s.length() - 1; i >= 0; i--) {
-		cout << s[i];
-	}
-	return 0;
+    string s;
+    cin >> s;
+    for(int i = s.length() - 1; i >= 0; i--) {
+        cout << s[i];
+    }
+    return 0;
 }
