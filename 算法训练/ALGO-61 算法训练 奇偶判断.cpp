@@ -1,4 +1,4 @@
-算法训练 奇偶判断
+ALGO-61 算法训练 奇偶判断
 问题描述
 　　能被2整除的数称为偶数，不能被2整除的数称为奇数。给一个整数x，判断x是奇数还是偶数。
 输入格式
@@ -17,12 +17,12 @@ odd
 #include <iostream>
 using namespace std;
 int main() {
-	int a;
-	cin >> a;
-	if(a % 2 == 0) {
-		cout << "even";
-	} else {
-		cout << "odd";
-	}
-	return 0;
+    int a;
+    cin >> a;
+    if(a % 2 == 0) {
+        cout << "even";
+    } else {
+        cout << "odd";
+    }
+    return 0;
 }
