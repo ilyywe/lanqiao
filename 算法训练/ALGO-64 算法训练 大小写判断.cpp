@@ -1,4 +1,4 @@
-算法训练 大小写判断  
+ALGO-64 算法训练 大小写判断  
 问题描述
 　　给定一个英文字母判断这个字母是大写还是小写。
 输入格式
@@ -18,12 +18,12 @@ upper
 #include <cctype>
 using namespace std;
 int main() {
-	char c;
-	cin >> c;
-	if(isupper(c)) {
-		cout << "upper";
-	} else {
-		cout << "lower";
-	}
-	return 0;
+    char c;
+    cin >> c;
+    if(isupper(c)) {
+        cout << "upper";
+    } else {
+        cout << "lower";
+    }
+    return 0;
 }
