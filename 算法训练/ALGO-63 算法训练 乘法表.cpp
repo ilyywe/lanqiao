@@ -1,4 +1,4 @@
-算法训练 乘法表
+ALGO-63 算法训练 乘法表
 问题描述
 　　输出九九乘法表。
 输出格式
@@ -15,11 +15,11 @@
 #include <iostream>
 using namespace std;
 int main() {
-	for(int i = 1; i <= 9; i++) {
-		for(int j = 1; j <= i; j++) {
-			cout << i << "*" << j << "=" << i * j << " ";
-		}
-		cout << endl;
-	}
-	return 0;
+    for(int i = 1; i <= 9; i++) {
+        for(int j = 1; j <= i; j++) {
+            cout << i << "*" << j << "=" << i * j << " ";
+        }
+        cout << endl;
+    }
+    return 0;
 }
