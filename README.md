@@ -48,7 +48,7 @@ update （2017年3月）：已经把所有题解代码都发表到了博客上�
 | BASIC-25 | [回形取数](http://lx.lanqiao.cn/problem.page?gpid=T66) | [查看题解](http://www.liuchuo.net/archives/1282) |      |
 | BASIC-26 | [报时助手](http://lx.lanqiao.cn/problem.page?gpid=T67) | [查看题解](http://www.liuchuo.net/archives/3455) |      |
 | BASIC-27 | [2n皇后问题](http://lx.lanqiao.cn/problem.page?gpid=T68) | [查看题解](http://www.liuchuo.net/archives/1319) |      |
-| BASIC-28 | [Huffuman树](http://lx.lanqiao.cn/problem.page?gpid=T69) | [查看题解](http://www.liuchuo.net/archives/1278) |      |
+| BASIC-28 | [Huffuman树](http://lx.lanqiao.cn/problem.page?gpid=T69) | [查看题解](https://www.liuchuo.net/archives/1280) |      |
 | BASIC-29 | [高精度加法](http://lx.lanqiao.cn/problem.page?gpid=T70) | [查看题解](http://www.liuchuo.net/archives/3457) |      |
 | BASIC-30 | [阶乘计算](http://lx.lanqiao.cn/problem.page?gpid=T71) | [查看题解](http://www.liuchuo.net/archives/3459) |      |
 
