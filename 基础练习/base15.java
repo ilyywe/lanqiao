@@ -2,7 +2,7 @@ package algorithm.Lanqiao.基础练习;
 
 import java.util.Scanner;
 
-
+//比原作者的c++方法好一点
 public class base15 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
