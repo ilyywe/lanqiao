@@ -8,7 +8,7 @@ public class base3 {
 		Scanner in = new Scanner(System.in);
 		n = in.nextInt();
 		m = in.nextInt();
-		
+		in.close();
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				System.out.print((char)('A'+Math.abs(i-j)));

@@ -40,6 +40,7 @@ public class base19 {
 		int n=in.nextInt();
 		in.nextLine();
 		s=in.nextLine().toCharArray();
+		in.close();
 		int count=0;
 		int j=n-1;
 		boolean flag=false;

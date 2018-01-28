@@ -9,6 +9,7 @@ public class base10 {
 		int i=0;
 		Scanner in=new Scanner(System.in);
 		n=in.nextLong();
+		in.close();
 		if (n==0) {
 			System.out.println(0);
 		}else {
