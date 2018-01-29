@@ -12,7 +12,7 @@ BASIC-15 基础练习 字符串对比
 　　仅有一个数字，表明这两个字符串的关系编号
 样例输入
 BEIjing
-beiJing 
+beiJing
 样例输出
 3
 
