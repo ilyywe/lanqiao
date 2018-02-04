@@ -38,6 +38,7 @@ public class base17 {
 		Scanner in=new Scanner(System.in);
 		int n=in.nextInt();
 		int m=in.nextInt();
+		in.close();
 		long[][] a=new long[40][40];
 		long[][] b=new long[40][40];
 		long[][] t=new long[40][40];

@@ -42,6 +42,7 @@ int main() {
         v.push_back(temp);
     }
     int size = v.size();
+
     while(size >= 2) {
         sort(v.begin(), v.end(), cmp1);
         int t = v[size-1] + v[size-2];

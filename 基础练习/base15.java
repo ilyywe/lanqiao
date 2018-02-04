@@ -8,6 +8,7 @@ public class base15 {
 		Scanner in = new Scanner(System.in);
 		char[] a=in.nextLine().toCharArray();
 		char[] b=in.nextLine().toCharArray();
+		in.close();
 		boolean flag=false;
 		int i=0;
 		if (a.length==b.length) {

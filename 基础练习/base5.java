@@ -12,6 +12,7 @@ public class base5 {
 			list[i]=inScanner.nextInt();
 			}
 		num=inScanner.nextInt();
+		inScanner.close();
 		for (int i = 1; i <= list.length; i++) {
 			if (num==list[i]) {
 				System.out.println(i);

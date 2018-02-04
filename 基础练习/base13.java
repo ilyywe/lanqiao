@@ -9,6 +9,7 @@ public class base13 {
 		Scanner in=new Scanner(System.in);
 		int n=in.nextInt();
 		in.nextLine();
+		in.close();
 		for (int i = 0; i < n; i++) {
 			nums[i]=in.nextInt();
 		}
