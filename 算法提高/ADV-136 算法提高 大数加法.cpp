@@ -1,16 +1,3 @@
-算法提高 大数加法
-问题描述
-　　输入两个正整数a,b，输出a+b的值。
-输入格式
-　　两行，第一行a，第二行b。a和b的长度均小于1000位。
-输出格式
-　　一行，a+b的值。
-样例输入
-4
-2
-样例输出
-6
-
 #include <iostream>
 using namespace std;
 int main() {

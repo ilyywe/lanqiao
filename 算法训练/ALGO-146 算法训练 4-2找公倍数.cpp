@@ -1,7 +1,3 @@
-ALGO-146 算法训练 4-2找公倍数
-问题描述
-　　打印出1-1000所有11和17的公倍数。
-
 #include <cstdio>
 using namespace std;
 int main() {

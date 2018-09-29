@@ -1,10 +1,3 @@
-ADV-69 算法提高 质因数
-　将一个正整数N(1<N<32768)分解质因数。例如，输入90，打印出90=2*3*3*5。
-样例输入
-66
-样例输出
-66=2*3*11
-
 #include <iostream>
 using namespace std;
 int main() {

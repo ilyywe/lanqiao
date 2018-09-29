@@ -1,10 +1,3 @@
-ALGO-70 算法训练 最长字符串
-求出5个字符串中最长的字符串。每个字符串长度在100以内，且全为小写字母。
-样例输入
-one two three four five
-样例输出
-three
-
 #include <iostream>
 using namespace std;
 int main() {
