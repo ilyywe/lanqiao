@@ -30,31 +30,31 @@ public class base26 {
         int n = in.nextInt();
         int m = in.nextInt();
 
-        if (n/20>=1){
-            time[0]="";
-            System.out.print(time[20]+" "+time[n%20]+" ");
-        }else System.out.print(time[n]+" ");
-        int i=m/10;
-        switch (i){
+        if (n / 20 >= 1) {
+            time[0] = "";
+            System.out.print(time[20] + " " + time[n % 20] + " ");
+        } else System.out.print(time[n] + " ");
+        int i = m / 10;
+        switch (i) {
             case 1:
                 System.out.print(time[m]);
                 break;
             case 2:
-                System.out.print(time[20]+" "+time[m%20]);
+                System.out.print(time[20] + " " + time[m % 20]);
                 break;
             case 3:
-                System.out.print(time[21]+" "+time[m%30]);
+                System.out.print(time[21] + " " + time[m % 30]);
                 break;
             case 4:
-                System.out.print(time[22]+" "+time[m%40]);
+                System.out.print(time[22] + " " + time[m % 40]);
                 break;
             case 5:
-                System.out.print(time[23]+" "+time[m%50]);
+                System.out.print(time[23] + " " + time[m % 50]);
                 break;
-                default:
-                    if (m==0){
-                        System.out.print("o'clock");
-                    }
+            default:
+                if (m == 0) {
+                    System.out.print("o'clock");
+                }
         }
 
     }
