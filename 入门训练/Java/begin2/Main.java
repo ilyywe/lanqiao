@@ -9,9 +9,8 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		long n = in.nextLong();
 		in.close();
-		
-		// Gauss sum.
 		System.out.println((1 + n) * n / 2);
+		
 	}
 
 }
