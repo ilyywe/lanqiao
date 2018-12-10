@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 int main() {
@@ -9,10 +8,9 @@ int main() {
         fill(ans[0], ans[0] + 150 * 150, -1);
         if (n == 0 && m == 0) break;
         printf("Field #%d:\n", ++cnt);
-        scanf("%d", n);
         for (int i = 1; i <= n; i++)
             for (int j = 1; j <= m; j++)
-                scanf("%c ", &a[i][j]);
+                scanf(" %c ", &a[i][j]);
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
                 if (a[i][j] == '.') {
