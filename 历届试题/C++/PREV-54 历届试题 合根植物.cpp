@@ -1,4 +1,3 @@
-
 #include <iostream>
 int a[1000001], ans = 0;
 using namespace std;

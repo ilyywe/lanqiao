@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 int a[150], ahalf[150], n, cnt = 0;

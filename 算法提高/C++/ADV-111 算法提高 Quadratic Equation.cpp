@@ -1,6 +1,5 @@
-
-#include <cmath>
 #include <iostream>
+#include <cmath>
 using namespace std;
 double a, b, c;
 double f(double x) {
